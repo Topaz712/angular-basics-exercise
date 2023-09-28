@@ -1,5 +1,6 @@
 <div class="container">
-  <h1 [ngStyle]="{'background-color': isTechRelate ? 'blue' : 'yellow'}">{{ title }}</h1>
+  <h1 [ngStyle]="{'background-color': isTechRelated ? 'blue' : 'yellow'}">{{ title }}</h1>
+  <button (click)="toggleTechRelated()">Change is isTechRelated</button>
   <p>{{ content }}</p>
 </div>
 
